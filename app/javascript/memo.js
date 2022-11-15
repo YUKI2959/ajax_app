@@ -32,7 +32,7 @@ function post (){
     XHR.onload = () => {
       //200以外(リクエスト成功以外)のHTTPステータスコードが返された場合はエラーメッセージが表示されるように
       if (XHR.status != 200) {
-        alert(`Error ${XHR.status}: ${XHR.statusText}`);
+        alert(`Error ${XHR.status}: brew install postgresql${XHR.statusText}`);
         return null;
       };
       //HTMLを描画する処理を記述
